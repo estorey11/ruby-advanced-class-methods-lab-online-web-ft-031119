@@ -48,7 +48,7 @@ class Song
     split_file=file.split(" - ")
     song.artist_name=split_file[0]
     song.name=split_file[1].chomp(".mp3")
-    binding.pry
+    song
   end
 
 end
